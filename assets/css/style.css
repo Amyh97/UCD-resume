@@ -10,6 +10,10 @@
     background-color: #fff;
 }
 
+.bg-color-personal-info{
+    background-color: #f4f4f4;
+}
+
 .ui-menu-color-home{
     background-color: #e67e22;
 }
@@ -24,7 +28,7 @@
 }
 
 .row-table{
-    display: inline-block;
+    display: table;
 }
 
 .section-column{
@@ -199,4 +203,70 @@ footer{
 
 #footer-details{
     padding: 20px;
+}
+
+/* --------------- three reasons*/
+
+.three-reasons-icon{
+    font-size: 26px;
+    color: #e67e22;
+}
+.three-reasons-heading{
+    margin-bottom: 15px;
+}
+
+/* ------------personal info*/
+
+.personal-info-item{
+      margin-bottom: 20px;
+      display: block;
+      clear: both;
+}
+
+.personal-info-item .key, .personal-info-item .value{
+    padding-right: 7px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p{
+    margin:0;
+}
+
+.personal-info-item .key{
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p{
+    font-weight: 700;
+}
+
+.personal-info-item .value{
+    width: 60%;
+    position: relative;
+}
+
+/* -----------------------skills*/
+
+.progress{
+    position: relative; 
+    height: 25px; 
+    margin-bottom: 4px;
+}
+
+.progress-type{
+    position: absolute;
+    left:0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2)
+}
+
+/* ------------- progress section*/
+.progress-section{
+    margin: 40px 20px;
 }
